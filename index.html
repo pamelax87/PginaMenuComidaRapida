@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="./static/img/logo.svg" alt="imagen logo">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./static/img/menu.png" class="menu-icono" alt="imagen menu">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#infor">Servicios</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+
+                </div>
+
+                <img class="logo-2" src="./static/img/logo.svg" alt="">
+
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horario">Horarios</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/pamelax87">
+                            <div class="social">
+                                <img src="./static/img/facebook_icon.png" alt="">
+                            </div>
+                         </a>
+                         <a href="https://www.tiktok.com/@pamelax87?lang=es">
+                            <div class="social">
+                                <img src="./static/img/tiktok_icon.png" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/pamela_x87/">
+                            <div class="social">
+                                <img src="./static/img/instagram_icon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa con tocino</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus velit quaerat qui repellat quasi non aut. Perferendis, exercitationem ipsa saepe beatae quod molestias, qui impedit in quaerat ducimus corrupti.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="./static/img/slider1.png" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Sandwich</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Illum, ducimus velit quaerat qui repellat quasi 
+                                    non aut. Perferendis, exercitationem ipsa saepe 
+                                    beatae quod molestias, qui impedit in quaerat ducimus 
+                                    corrupti.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="./static/img/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa Super</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Illum, ducimus velit quaerat qui repellat quasi 
+                                    non aut. Perferendis, exercitationem ipsa saepe 
+                                    beatae quod molestias, qui impedit in quaerat ducimus 
+                                    corrupti.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="./static/img/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="products" id="productos">
+        <div class="tabs container"> 
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hamburguesa</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food1.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food2.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food3.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Burritos</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food4.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food5.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food6.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food7.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food8.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="./static/img/food9.png" alt="imagen Hamburguesa con queso">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <section class="info container">
+        <div class="info-img">
+            <img src="./static/img/info.png" alt="">
+        </div>
+        <div class="info-txt" id="infor">
+            <h2>Información</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem illum qui fugiat quod reiciendis at quasi. Molestiae facilis consectetur aperiam pariatur rerum, minima provident rem quis deleniti!</p>
+            <a href="#" class="btn-2">Más información</a>
+        </div>
+    </section>
+    <section class="horario" id="horario">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Sucursales</h4>
+                    <p>Doctor Moreno 2537, Las Heras.</p>
+                    <p>Aristides Villa Nueva 125, Ciudad.</p>
+                </div>
+                <div class="txt">
+                    <h4>Horarios</h4>
+                    <p>Lunes a Viernes: 9am - 8pm.</p>
+                    <p>Sabados y Domingos de 9am - 11pm.</p>
+                </div>
+                <div class="txt">
+                    <h4>Contacto</h4>
+                    <a href="mailto:pamelax87@gmail.com">Enviar Correo</a>
+                </div>
+                <div class="txt">
+                    <h4>Redes</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/pamelax87">
+                            <div class="social">
+                                <img src="./static/img/facebook_icon.png" alt="">
+                            </div>
+                         </a>
+                         <a href="https://www.tiktok.com/@pamelax87?lang=es">
+                            <div class="social">
+                                <img src="./static/img/tiktok_icon.png" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/pamela_x87/">
+                            <div class="social">
+                                <img src="./static/img/instagram_icon.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.174410744729!2d-68.84262542466524!3d-32.84063347363701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e089e7cbd4045%3A0x28fb81bf3395c47!2sDr.%20Moreno%202537%2C%20M5540AAL%20Las%20Heras%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1721481144236!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="footer container">
+        <img class="logo-2" src="./static/img/logo.svg" alt="">
+        <div class="links">
+            <ul>
+                <li><a href="">Califica nuestros productos</a></li>
+                <li><a href="">Terminos y condiciones</a></li>
+                <li><a href="https://www.mendoza.gov.ar/consumidores/">Defensa al consumidor</a></li>
+            </ul>
+        </div>
+            <h4>Redes</h4>
+            <div class="socials">
+                <a href="https://www.facebook.com/pamelax87">
+                    <div class="social">
+                        <img src="./static/img/facebook_icon.png" alt="">
+                    </div>
+                 </a>
+                 <a href="https://www.tiktok.com/@pamelax87?lang=es">
+                    <div class="social">
+                        <img src="./static/img/tiktok_icon.png" alt="">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/pamela_x87/">
+                    <div class="social">
+                        <img src="./static/img/instagram_icon.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./static/index.js"></script>
+</body>
+</html>

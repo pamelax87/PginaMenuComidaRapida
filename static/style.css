@@ -463,6 +463,9 @@ font-size: 25px;
     .social img {
         margin: 8px 0 0 0;
     }
+    .mapa {
+        justify-content: center;
+    }
     .map {
         width: auto;
         height: 150%;
